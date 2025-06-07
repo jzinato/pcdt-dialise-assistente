@@ -1,0 +1,7 @@
+streamlit
+pymupdf
+python-docx
+plotly
+pandas
+supabase
+reportlab
