@@ -1,3 +1,3 @@
 # PCDT Diálise Assistente
 
-Sistema para análise automática de exames com base nos PCDTs em pacientes em hemodiálise e diálise peritoneal.
+Sistema de apoio clínico para pacientes em diálise baseado nos PCDTs do Ministério da Saúde.
