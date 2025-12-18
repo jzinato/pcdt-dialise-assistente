@@ -1,0 +1,22 @@
+Paciente: João Silva Santos
+Idade: 65 anos
+Modalidade de Tratamento: Hemodiálise
+
+RESULTADOS DE EXAMES LABORATORIAIS
+
+Data da Coleta: 15/03/2024
+
+Hemograma:
+- Hemoglobina: 11.5 g/dL
+
+Perfil de Ferro:
+- Ferritina: 250 ng/mL
+- Saturação de Transferrina: 35 %
+
+Metabolismo Ósseo:
+- Cálcio: 9.2 mg/dL
+- Fósforo: 4.8 mg/dL
+- PTH (Paratormônio): 350 pg/mL
+- 25-hidroxivitamina D: 28 ng/mL
+
+Observações: Paciente estável em programa de hemodiálise.

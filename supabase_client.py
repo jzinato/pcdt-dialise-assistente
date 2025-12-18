@@ -1,9 +1,20 @@
 from supabase import create_client
 import datetime
+import os
+from dotenv import load_dotenv
 
-# Configurações do Supabase (insira as suas)
-SUPABASE_URL = "https://bzmjlmddcccbqongzsna.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ6bWpsbWRkY2NjYnFvbmd6c25hIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkyOTk3NzksImV4cCI6MjA2NDg3NTc3OX0.UsVRgkuLtJvUBxZynZKjed7U7lUDvFg1SkKqbFgSvsU"
+# Load environment variables from .env file
+load_dotenv()
+
+# Configurações do Supabase - agora usando variáveis de ambiente
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+
+if not SUPABASE_URL or not SUPABASE_KEY:
+    raise ValueError(
+        "SUPABASE_URL and SUPABASE_KEY must be set in environment variables. "
+        "Copy .env.example to .env and fill in your credentials."
+    )
 
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
