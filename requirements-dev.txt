@@ -1,0 +1,30 @@
+# Development and Testing Dependencies
+# Install with: pip install -r requirements-dev.txt
+
+# Testing framework
+pytest>=7.4.0
+pytest-cov>=4.1.0          # Coverage reporting
+pytest-mock>=3.12.0         # Mocking utilities
+pytest-asyncio>=0.21.0      # Async test support
+
+# Code quality
+black>=23.0.0               # Code formatter
+flake8>=6.0.0              # Linting
+mypy>=1.5.0                # Type checking
+isort>=5.12.0              # Import sorting
+
+# Security scanning
+bandit>=1.7.5              # Security issue detection
+safety>=2.3.0              # Dependency vulnerability checking
+
+# Testing utilities
+faker>=19.0.0              # Generate fake data for tests
+freezegun>=1.2.0           # Mock datetime
+responses>=0.23.0          # Mock HTTP requests
+
+# Environment management
+python-dotenv>=1.0.0       # Load environment variables from .env
+
+# Documentation
+sphinx>=7.0.0              # Documentation generator
+sphinx-rtd-theme>=1.3.0    # ReadTheDocs theme
